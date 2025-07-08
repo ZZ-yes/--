@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+
+            /*字体属性可继承*/
+        }
+        body{
+            background-color: rgb(245,245,245);
+        }/*整体样式*/
+
+       
+        .box1{/*大box的整体样式外层div样式*/
+            background-color: rgb(255,255,255);
+            width: 234px;
+            height: 300px;
+            margin: 0px auto;
+            margin-bottom: 14px;
+        }
+        .box1>img{/*图片样式*/
+            width: 160px;
+            height: 160px;
+            margin-left: 37px;
+            
+        }
+        
+
+        p {/*文字居中*/
+            text-align: center;
+        }
+
+        .p1 {/*第一行*/
+            font-size: 14px;
+            font-weight: 400;
+            color: #333;
+            margin: 2px 10px;
+            margin-top: 0px;
+        }
+
+        .p2 {/*第二行*/
+            font-size: 12px;
+            color: #b0b0b0;
+            margin: 10px;
+            margin-top: 0px;
+           
+        }
+
+        .p3 {/*第三行*/
+            color: #ff6700;
+        }
+        .p4{
+            color: #b0b0b0;
+        }
+    </style>
+</head>
+
+<body>
+    
+        <div class="box1">
+            <img src="1.png" alt="">
+            <div>
+                <p class="p1">小米笔记本Pro X 14</p>
+                <p class="p2">高能旗舰 轻薄力作</p>
+                <p class="p3">6999元&nbsp;&nbsp;
+                    <del class="p4">7999元</del>
+                </p>
+            </div>
+        </div>
+        
+        <div class="box1">
+            <img src="3.png" alt="">
+            <div>
+                <p class="p1">小米平板5 Pro</p>
+                <p class="p2">骁龙870芯片 | 2.5k超高清 | 120HZ高</p>
+                <p class="p3">2199元起&nbsp;&nbsp;
+                    <del class="p4">2499元</del>
+                </p>
+            </div>
+        </div>
+    
+</body>
+
+</html>
