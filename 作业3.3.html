@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {/*重置内外边距 字体样式可继承*/
+            margin: 0px;
+            padding: 0px;
+            font: 14px / 1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+        }
+
+        body {
+            background-color: rgb(245,245,245);/*整体背景*/
+        }
+        .box{
+            width: 234px;
+            height: 300px;
+            background-color: rgb(255,255,255);/*布局背景*/
+            margin: 0 auto;/*盒子居中*/
+            margin-bottom: 10px;
+        }
+        .box img{
+            width: 160px;
+            height: 160px; 
+            margin-left: 37px;/*图片居中*/
+            
+     
+        }
+        a{
+            text-decoration: none;/*去除下划线*/
+        }
+        div.p1,div.p2,div.p3{
+            text-align: center;/*文字居中*/
+        }
+        .p1{
+            font-weight: 400;
+            color: #333;
+            margin: 2px 10px;
+            margin-top: 0;
+        }
+        .p2{
+            font-size: 12px;
+            color: #b0b0b0;
+            margin: 10px;
+            margin-top: 0;
+        }
+        .p3{
+            color: #ff6700;
+        }
+        .p4{
+            color:#b0b0b0;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <a href="">
+
+            <img src="1.png" alt="">
+            <div class="p1">小米笔记本Pro X 14</div>
+            <div class="p2">高能旗舰 轻薄力作</div>
+            <div class="p3">6999元&nbsp;&nbsp;
+                <del class="p4">7999元</del>
+            </div>
+        </a>
+    </div>
+
+    <div class="box">
+        <a href="">
+
+            <img src="3.png" alt="">
+            <div class="p1">小米平板5 Pro</div>
+            <div class="p2">高能旗舰 轻薄力作骁龙870芯片 | 2.5k超高清 | 120HZ高</div>
+            <div class="p3">2199元起&nbsp;&nbsp;
+                <del class="p4">2499元</del>
+            </div>
+
+        </a>
+
+    </div>
+</body>
+
+</html>
